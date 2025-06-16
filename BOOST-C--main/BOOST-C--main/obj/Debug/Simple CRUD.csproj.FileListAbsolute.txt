@@ -1,0 +1,12 @@
+C:\Users\ACER\source\repos\Simple CRUD\bin\Debug\PersonDb.mdf
+C:\Users\ACER\source\repos\Simple CRUD\bin\Debug\PersonDb_log.ldf
+C:\Users\ACER\source\repos\Simple CRUD\bin\Debug\Simple CRUD.exe.config
+C:\Users\ACER\source\repos\Simple CRUD\bin\Debug\Simple CRUD.exe
+C:\Users\ACER\source\repos\Simple CRUD\bin\Debug\Simple CRUD.pdb
+C:\Users\ACER\source\repos\Simple CRUD\obj\Debug\Simple CRUD.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\Simple CRUD\obj\Debug\Simple_CRUD.Form1.resources
+C:\Users\ACER\source\repos\Simple CRUD\obj\Debug\Simple_CRUD.Properties.Resources.resources
+C:\Users\ACER\source\repos\Simple CRUD\obj\Debug\Simple CRUD.csproj.GenerateResource.cache
+C:\Users\ACER\source\repos\Simple CRUD\obj\Debug\Simple CRUD.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\Simple CRUD\obj\Debug\Simple CRUD.exe
+C:\Users\ACER\source\repos\Simple CRUD\obj\Debug\Simple CRUD.pdb
