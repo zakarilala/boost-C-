@@ -9,7 +9,7 @@ namespace Simple_CRUD
     internal static class Program
     {
         /// <summary>
-        /// Point d'entrée principal de l'application.
+        /// Point dentree principal de lapplication.
         /// </summary>
         [STAThread]
         static void Main()

@@ -44,7 +44,7 @@ namespace Simple_CRUD
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error loading data: {ex.Message}");
+                    MessageBox.Show($"Erreur de chargement des donnees: {ex.Message}");
                 }
             }
         }
@@ -122,19 +122,19 @@ namespace Simple_CRUD
         {
             if (string.IsNullOrWhiteSpace(textBoxLastName.Text))
             {
-                MessageBox.Show("Please enter a last name.");
+                MessageBox.Show("Entrer votre NOM.");
                 return false;
             }
 
             if (string.IsNullOrWhiteSpace(textBoxFirstName.Text))
             {
-                MessageBox.Show("Please enter a first name.");
+                MessageBox.Show("Entrer votre PRENOM.");
                 return false;
             }
 
             if (!int.TryParse(textBoxAge.Text, out int age) || age <= 0)
             {
-                MessageBox.Show("Please enter a valid age.");
+                MessageBox.Show("Entrer un age valide.");
                 return false;
             }
 
@@ -154,7 +154,7 @@ namespace Simple_CRUD
         {
             if (string.IsNullOrEmpty(textBoxId.Text))
             {
-                MessageBox.Show("Please select a person to modify.");
+                MessageBox.Show("Selectionner la personne a modifier.");
                 return;
             }
 
@@ -181,17 +181,17 @@ namespace Simple_CRUD
                         {
                             ClearInputs();
                             LoadPersonsData();
-                            MessageBox.Show("Person updated successfully!");
+                            MessageBox.Show("Mise à jour réussie !");
                         }
                         else
                         {
-                            MessageBox.Show("No rows were updated.");
+                            MessageBox.Show("Aucune ligne n'a été mise à jour.");
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error updating person: {ex.Message}");
+                    MessageBox.Show($"Erreur lors de la mise à jour de la personne: {ex.Message}");
                 }
             }
         }
@@ -200,11 +200,11 @@ namespace Simple_CRUD
         {
             if (string.IsNullOrEmpty(textBoxId.Text))
             {
-                MessageBox.Show("Please select a person to delete.");
+                MessageBox.Show("Selectionner une personne à supprimer.");
                 return;
             }
 
-            if (MessageBox.Show("Are you sure you want to delete this person?", "Confirm Delete",
+            if (MessageBox.Show("Est ce que vous ete sure de suprimer cette personne ?", "Confirm Delete",
                 MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 try
@@ -223,17 +223,17 @@ namespace Simple_CRUD
                         {
                             ClearInputs();
                             LoadPersonsData();
-                            MessageBox.Show("Person deleted successfully!");
+                            MessageBox.Show("La personne a ete supprimer avec succes !");
                         }
                         else
                         {
-                            MessageBox.Show("No rows were deleted.");
+                            MessageBox.Show("Aucune ligne n'a été supprimée.");
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error deleting person: {ex.Message}");
+                    MessageBox.Show($"Erreur lors de la suppression de la personne: {ex.Message}");
                 }
             }
         }

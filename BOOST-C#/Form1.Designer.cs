@@ -163,16 +163,16 @@
             // 
             this.textBoxId.Location = new System.Drawing.Point(606, 386);
             this.textBoxId.Name = "textBoxId";
-            this.textBoxId.Size = new System.Drawing.Size(148, 20);
+            this.textBoxId.Size = new System.Drawing.Size(150, 30);
             this.textBoxId.TabIndex = 13;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(160, 42);
+            this.label5.Location = new System.Drawing.Point(161, 50);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(143, 29);
+            this.label5.Size = new System.Drawing.Size(144, 30);
             this.label5.TabIndex = 14;
             this.label5.Text = "BOOST C#";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -181,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(790, 433);
+            this.ClientSize = new System.Drawing.Size(790, 436);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBoxId);
             this.Controls.Add(this.buttonModify);
